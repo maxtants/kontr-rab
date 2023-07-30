@@ -16,3 +16,5 @@
 // [“Russia”, “Denmark”, “Kazan”] → []
 
 
+string str = "hello";
+System.Console.WriteLine(str.Length);

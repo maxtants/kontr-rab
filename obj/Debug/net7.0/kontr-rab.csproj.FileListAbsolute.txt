@@ -1,0 +1,15 @@
+/Users/maxtants/Desktop/kontr-rab/bin/Debug/net7.0/kontr-rab
+/Users/maxtants/Desktop/kontr-rab/bin/Debug/net7.0/kontr-rab.deps.json
+/Users/maxtants/Desktop/kontr-rab/bin/Debug/net7.0/kontr-rab.runtimeconfig.json
+/Users/maxtants/Desktop/kontr-rab/bin/Debug/net7.0/kontr-rab.dll
+/Users/maxtants/Desktop/kontr-rab/bin/Debug/net7.0/kontr-rab.pdb
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/kontr-rab.csproj.AssemblyReference.cache
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/kontr-rab.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/kontr-rab.AssemblyInfoInputs.cache
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/kontr-rab.AssemblyInfo.cs
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/kontr-rab.csproj.CoreCompileInputs.cache
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/kontr-rab.dll
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/refint/kontr-rab.dll
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/kontr-rab.pdb
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/kontr-rab.genruntimeconfig.cache
+/Users/maxtants/Desktop/kontr-rab/obj/Debug/net7.0/ref/kontr-rab.dll

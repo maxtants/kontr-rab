@@ -16,5 +16,61 @@
 // [“Russia”, “Denmark”, “Kazan”] → []
 
 
-string str = "hello";
-System.Console.WriteLine(str.Length);]
+
+string[] ReadConsole(string msg)
+{
+    Console.Write(msg);
+    string input = Console.ReadLine();
+    string[] words = input.Substring(1, input.Length - 2).Split(", ");
+    return words;
+}
+
+int CountTripleOrLessWords(string[] words)
+{
+    int count = 0;
+    foreach (string word in words)
+    {
+        if (word.Length - 2 <= 3) count++;
+    }
+    return count;
+}
+
+string[] CreateTripleOrLessWordsArray(int size, string[] words)
+{
+    string[] array = new string[size];
+    int j = 0;
+    for (int i = 0; i < words.Length; i++)
+    {
+        if (words[i].Length - 2 <= 3)
+        {
+            array[j] = words[i];
+            j++;
+        }
+    }
+    return array;
+}
+
+void PrintArray(string[] array)
+{
+    string res = "";
+
+    foreach (string el in array)
+    {
+        res += el + ", ";
+    }
+
+    if (res == "")
+    {
+        System.Console.WriteLine("[]");
+    }
+    else
+    {
+        System.Console.WriteLine("[" + res.Substring(0, res.Length - 2) + "]");
+    }
+}
+
+Console.Clear();
+string[] words = ReadConsole("Введите массив строк в кваратных скобках в кавычках через запятую и пробел: ");
+int size = CountTripleOrLessWords(words);
+string[] array = CreateTripleOrLessWordsArray(size, words);
+PrintArray(array);
